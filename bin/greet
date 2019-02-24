@@ -5,9 +5,4 @@ require_relative "../lib/greeting.rb"
 # <<<<<<< HEAD
 puts "Hi! I'm HAL, what's your name?"
 name = gets.strip.chomp
-# =======
-# p "Welcome to the CLI Game"
-p "What is your name: "
-name = gets.strip
-# >>>>>>> e018c1974f0cd621f0e2b392ed9d93af72f69eba
 greeting(name)
